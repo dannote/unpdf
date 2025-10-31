@@ -1,5 +1,6 @@
 {
   "type": "module",
+  "name": "examples-cloudflare",
   "private": true,
   "scripts": {
     "dev": "esbuild --bundle --platform=neutral --outfile=build/index.js index.ts && wrangler dev build/index.js"
