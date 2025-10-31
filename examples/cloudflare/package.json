@@ -1,12 +1,12 @@
 {
+  "name": "@unpdf/example-cloudflare",
   "type": "module",
-  "name": "examples-cloudflare",
   "private": true,
   "scripts": {
     "dev": "esbuild --bundle --platform=neutral --outfile=build/index.js index.ts && wrangler dev build/index.js"
   },
   "devDependencies": {
-    "esbuild": "^0.25.10",
-    "wrangler": "^4.38.0"
+    "esbuild": "^0.25.11",
+    "wrangler": "^4.45.3"
   }
 }

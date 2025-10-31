@@ -98,7 +98,7 @@ export function renderPageAsImage(
     width?: number
     height?: number
     toDataURL?: false
-  }
+  },
 ): Promise<ArrayBuffer>
 export function renderPageAsImage(
   data: DocumentInitParameters['data'] | PDFDocumentProxy,
@@ -110,7 +110,7 @@ export function renderPageAsImage(
     width?: number
     height?: number
     toDataURL: true
-  }
+  },
 ): Promise<string>
 export async function renderPageAsImage(
   data: DocumentInitParameters['data'] | PDFDocumentProxy,
